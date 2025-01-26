@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00FFFFFF"
+    android:backgroundTint="#00FFFFFF"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- Linha 1: textuser e textMenssagem -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/textuser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="Ana"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textMenssagem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Título da Menssagem"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Linha 2: textuser2 e textMenssagem2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/textuser2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Brunno"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:textColor="#0000FF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textMenssagem2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Título da Menssagem"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Outros elementos -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/textuser3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:text="BubblePincer"
+            android:textColor="#121116"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textCodigo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#00FFFFFF"
+            android:text="Título da Menssagem"
+            android:textColor="#121116"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
