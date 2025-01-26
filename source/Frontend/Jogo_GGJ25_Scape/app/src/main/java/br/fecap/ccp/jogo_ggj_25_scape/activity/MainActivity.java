@@ -54,8 +54,7 @@ public class MainActivity extends AppCompatActivity {
         builder.show();
 
         btnEmail.setOnClickListener(v -> {
-                    //sendEmail();
-            startActivity(new Intent(MainActivity.this, Desafio1.class));
+                    sendEmail();
                 }
         );
 
